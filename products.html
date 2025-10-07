@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - TOM 3D Printing Shop</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="/">TOM 3D Printing</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/products.html">Products</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/cart.html" class="cart-link">Cart <span class="cart-count">0</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products-header">
+            <div class="container">
+                <h1>Our Products</h1>
+                <p>Browse our extensive collection of 3D printed items</p>
+            </div>
+        </section>
+
+        <section class="products-section">
+            <div class="container">
+                <div class="filter-bar">
+                    <button class="filter-btn active" data-category="all">All Products</button>
+                    <button class="filter-btn" data-category="keyrings">Keyrings</button>
+                    <button class="filter-btn" data-category="models">Models</button>
+                    <button class="filter-btn" data-category="parts">Parts</button>
+                    <button class="filter-btn" data-category="tools">Tools</button>
+                    <button class="filter-btn" data-category="accessories">Accessories</button>
+                </div>
+
+                <div class="products-grid" id="productsGrid"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>TOM 3D Printing</h4>
+                    <p>Premium 3D printed products made in the UK</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/products.html">Products</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="/products.html?category=keyrings">Keyrings</a></li>
+                        <li><a href="/products.html?category=models">Models</a></li>
+                        <li><a href="/products.html?category=parts">Parts</a></li>
+                        <li><a href="/products.html?category=tools">Tools</a></li>
+                        <li><a href="/products.html?category=accessories">Accessories</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TOM 3D Printing Shop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/js/products.js"></script>
+    <script type="module" src="/js/cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail - TOM 3D Printing Shop</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="/">TOM 3D Printing</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/products.html">Products</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/cart.html" class="cart-link">Cart <span class="cart-count">0</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-detail">
+            <div class="container">
+                <a href="/products.html" class="back-link">&larr; Back to Products</a>
+
+                <div class="product-detail-grid" id="productDetailContent">
+                    <div class="product-image-section">
+                        <div class="product-image-placeholder"></div>
+                    </div>
+
+                    <div class="product-info-section">
+                        <h1 class="product-title">Loading...</h1>
+                        <p class="product-price">£0.00</p>
+                        <p class="product-category"></p>
+                        <p class="product-description">Loading product details...</p>
+
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <button class="qty-btn" id="decreaseQty">-</button>
+                                <input type="number" id="quantity" value="1" min="1" max="99">
+                                <button class="qty-btn" id="increaseQty">+</button>
+                            </div>
+                            <button class="btn-primary add-to-cart-btn" id="addToCartBtn">Add to Cart</button>
+                        </div>
+
+                        <div class="product-features">
+                            <h3>Features</h3>
+                            <ul>
+                                <li>High-quality 3D printed material</li>
+                                <li>Durable and long-lasting</li>
+                                <li>Made in the UK</li>
+                                <li>Fast dispatch</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>TOM 3D Printing</h4>
+                    <p>Premium 3D printed products made in the UK</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/products.html">Products</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="/products.html?category=keyrings">Keyrings</a></li>
+                        <li><a href="/products.html?category=models">Models</a></li>
+                        <li><a href="/products.html?category=parts">Parts</a></li>
+                        <li><a href="/products.html?category=tools">Tools</a></li>
+                        <li><a href="/products.html?category=accessories">Accessories</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TOM 3D Printing Shop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/js/product-detail.js"></script>
+    <script type="module" src="/js/cart.js"></script>
+</body>
+</html>

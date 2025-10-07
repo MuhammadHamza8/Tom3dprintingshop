@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TOM 3D Printing Shop</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="/">TOM 3D Printing</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/products.html">Products</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/cart.html" class="cart-link">Cart <span class="cart-count">0</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p class="contact-intro">Have a question or need a custom order? Get in touch with us.</p>
+
+                <div class="contact-content">
+                    <div class="contact-form">
+                        <h2>Send us a Message</h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="contactName">Your Name</label>
+                                <input type="text" id="contactName" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contactEmail">Email Address</label>
+                                <input type="email" id="contactEmail" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contactSubject">Subject</label>
+                                <input type="text" id="contactSubject" name="subject" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contactMessage">Message</label>
+                                <textarea id="contactMessage" name="message" rows="6" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-primary btn-block">Send Message</button>
+
+                            <div id="formMessage" class="form-message"></div>
+                        </form>
+                    </div>
+
+                    <div class="contact-info">
+                        <h2>Get in Touch</h2>
+
+                        <div class="info-item">
+                            <h3>Email</h3>
+                            <p>info@tom3dprinting.co.uk</p>
+                        </div>
+
+                        <div class="info-item">
+                            <h3>Phone</h3>
+                            <p>+44 20 1234 5678</p>
+                        </div>
+
+                        <div class="info-item">
+                            <h3>Business Hours</h3>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                            <p>Saturday: 10:00 AM - 4:00 PM</p>
+                            <p>Sunday: Closed</p>
+                        </div>
+
+                        <div class="info-item">
+                            <h3>Location</h3>
+                            <p>Based in the United Kingdom</p>
+                            <p>Serving customers nationwide</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>TOM 3D Printing</h4>
+                    <p>Premium 3D printed products made in the UK</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/products.html">Products</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="/products.html?category=keyrings">Keyrings</a></li>
+                        <li><a href="/products.html?category=models">Models</a></li>
+                        <li><a href="/products.html?category=parts">Parts</a></li>
+                        <li><a href="/products.html?category=tools">Tools</a></li>
+                        <li><a href="/products.html?category=accessories">Accessories</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TOM 3D Printing Shop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/js/contact.js"></script>
+    <script type="module" src="/js/cart.js"></script>
+</body>
+</html>
