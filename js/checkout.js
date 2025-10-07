@@ -44,7 +44,7 @@ function renderOrderSummary() {
     const cart = getCart();
 
     if (cart.length === 0) {
-        window.location.href = '/cart.html';
+        window.location.href = 'cart.html';
         return;
     }
 

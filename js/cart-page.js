@@ -19,7 +19,7 @@ function renderCart() {
         cartItemsContainer.innerHTML = `
             <div class="empty-cart">
                 <p>Your cart is empty</p>
-                <a href="/products.html" class="btn-primary">Continue Shopping</a>
+                <a href="products.html" class="btn-primary">Continue Shopping</a>
             </div>
         `;
         cartSummary.style.display = 'none';

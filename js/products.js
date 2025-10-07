@@ -18,7 +18,7 @@ function renderProducts(filteredProducts) {
     }
 
     grid.innerHTML = filteredProducts.map(product => `
-        <a href="/product-detail.html?id=${product.id}" class="product-card">
+        <a href="product-detail.html?id=${product.id}" class="product-card">
             <div class="product-image">${categoryIcons[product.category]}</div>
             <div class="product-info">
                 <p class="product-category">${product.category}</p>
